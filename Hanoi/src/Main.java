@@ -26,7 +26,7 @@ public class Main
 	   else
 	   {
 		   towers(disks - 1, peg1, peg3, peg2);
-		   System.out.println("Recursive Call #1: " + disks);
+		   System.out.println("Recursive CALL #1: " + disks);
 		   towers(1, peg1, peg2, peg3);
 		   System.out.println("Recursive Call #2: "   + disks);
 		   towers(disks - 1, peg2, peg1, peg3);
